@@ -72,7 +72,7 @@ const removeKey = (obj, key) => {
 
 // }
 
-const combine = (obj1, obj2) {
+const combine = (obj1, obj2) => {
     return {...obj1, ...obj2};
 }
 
@@ -83,7 +83,7 @@ const combine = (obj1, obj2) {
 
 // }
 
-const update = (obj, key, val) {
+const update = (obj, key, val) => {
     let newObj = {...obj}
     newObj[key] === val;
     return newObj;
